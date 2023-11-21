@@ -1,5 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
 
-<form action="result.php" method="POST">
+        .form-label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-check-label {
+            font-weight: normal;
+            color: #555;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #dc3545;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+    <form action="result.php" method="POST">
     <div class="mb-3">
         <label for="name" class="form-label">Name:</label>
         <input type="text" class="form-control" name="username" id="name">
@@ -67,10 +124,9 @@
         <button type="submit" class="btn btn-danger">Submit</button>
     </div>
 </form>
-
-
-
-
+</div>
+</body>
+</html>
 
 
 
